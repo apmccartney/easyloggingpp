@@ -6660,4 +6660,9 @@ static T* checkNotNull(T* ptr, const char* name, const char* loggers, ...) {
 #else
 #   define START_EASYLOGGINGPP(argc, argv) el::Helpers::setArgs(argc, argv)
 #endif  // defined(ELPP_UNICODE)
+
+namespace el {
+  inline el::base::type::StoragePointer setupLogging();
+}
+
 #endif // EASYLOGGINGPP_H

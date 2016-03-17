@@ -1,0 +1,3 @@
+[submodule "commonCMakeScripts"]
+	path = commonCMakeScripts
+	url = git@github.com:njoy/commonCMakeScripts.git
